@@ -9,7 +9,7 @@ contract Crowdsale {
     // Const duration
     uint256 public constant DURATION = 28 days;
     // Const rate
-    uint256 public constant RATE = 100; 
+    uint256 public constant RATE = 100;
 
     // User balances
     mapping(address => uint256) public balances;
