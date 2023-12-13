@@ -2,8 +2,7 @@ const Crowdsale = artifacts.require("Crowdsale");
 
 contract("Crowdsale", accounts => {
     let crowdsale;
-    const owner = accounts[0];
-    const buyer = accounts[1];
+    const [owner, buyer] = accounts;
     // Assuming RATE is 100
     const rate = 100;
 
